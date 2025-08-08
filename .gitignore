@@ -1,0 +1,21 @@
+# Node.js & Next.js
+node_modules/
+.next/
+dist/
+out/
+
+# Lingkungan
+.env
+.env.local
+
+# Log
+npm-debug.log*
+yarn-debug.log*
+
+# Editor
+.vscode/
+.idea/
+
+# Sistem
+.DS_Store
+Thumbs.db
