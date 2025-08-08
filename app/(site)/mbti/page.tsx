@@ -64,8 +64,15 @@ export default function MBTIPage() {
                 className="mt-3 grid gap-2 sm:grid-cols-5"
               >
                 {scale.map((s) => (
-                  <div key={s.value} className="flex items-center space-x-2 rounded-md border border-white/12 p-2 hover:bg-white/[0.08]">
-                    <RadioGroupItem id={`q${q.id}-${s.value}`} value={String(s.value)} />
+                  <div
+                    key={s.value}
+                    className="flex items-center space-x-2 rounded-md border border-white/12 p-2 hover:bg-white/[0.08]"
+                  >
+                    <RadioGroupItem
+                      id={`q${q.id}-${s.value}`}
+                      value={String(s.value)}
+                      className="border-white data-[state=checked]:bg-white data-[state=checked]:text-black"
+                    />
                     <Label htmlFor={`q${q.id}-${s.value}`} className="text-sm">{s.label}</Label>
                   </div>
                 ))}
