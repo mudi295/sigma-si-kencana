@@ -73,7 +73,7 @@ export default function Hero() {
         >
           <div className="max-w-[460px] mx-auto mt-4 rounded-xl border border-white/15 bg-white/[0.05] backdrop-blur p-2 shadow-[0_0_40px_rgba(59,130,246,0.1)]">
             <Image
-              src="/genre.png"
+              src="/logo.png"
               width={460}
               height={300}
               alt="Ilustrasi edukasi kesehatan futuristik"
