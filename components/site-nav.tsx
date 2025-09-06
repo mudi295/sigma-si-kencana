@@ -26,7 +26,7 @@ export default function SiteNav({ profile }: { profile?: { role?: string } }) {
         <div className="flex-1">
           <Link href="/" className="flex items-center gap-2 group">
             <div className="relative">
-              <img src="/logo.png" alt="Logo" className="w-8 h-8" />
+              <img src="/genre.png" alt="Logo" className="w-8 h-8" />
             </div>
             <div className="flex flex-col leading-tight">
               <span className="font-extrabold tracking-wide">

@@ -33,6 +33,26 @@ export const quizBank: Record<"10-14" | "15-19" | "20-24", QuizQuestion[]> = {
         { text: "Pesan rahasia yang hilang", isCorrect: false, explanation: "Banyak data tetap tersimpan." },
       ],
     },
+    {
+      id: 4,
+      question: "Apa yang dimaksud dengan seks bebas?",
+      options: [
+        { text: "Bermain bersama teman", isCorrect: false, explanation: "Bermain dengan teman adalah hal wajar dan bukan termasuk seks bebas." },
+        { text: "Melakukan hubungan seperti suami istri tanpa ikatan pernikahan", isCorrect: true, explanation: "Seks bebas artinya melakukan hubungan seperti suami istri tanpa menikah. Ini berisiko, terutama bagi remaja." },
+        { text: "Belajar bersama di sekolah", isCorrect: false, explanation: "Belajar bersama adalah kegiatan positif dan tidak ada hubungannya dengan seks bebas." },
+        { text: "Berteman dengan siapa saja", isCorrect: false, explanation: "Berteman dengan siapa saja tidak salah, asalkan tetap menjaga diri. Tapi ini bukan definisi seks bebas." },
+      ],
+    },
+    {
+      id: 5,
+      question: "Apa yang dimaksud dengan seks bebas?",
+      options: [
+        { text: "Menjadi lebih pintar", isCorrect: false, explanation: "Seks bebas tidak bikin pintar." },
+        { text: "Mendapat banyak teman", isCorrect: false, explanation: "Teman banyak bukan karena seks bebas." },
+        { text: "Bisa terkena penyakit dan kehamilan yang tidak diinginkan", isCorrect: true, explanation: "Bisa kena penyakit & hamil saat belum siap." },
+        { text: "Mendapat hadiah", isCorrect: false, explanation: "Seks bebas tidak ada hadiahnya, malah berbahaya." },
+      ],
+    },
   ],
   "15-19": [
     {
@@ -65,6 +85,26 @@ export const quizBank: Record<"10-14" | "15-19" | "20-24", QuizQuestion[]> = {
         { text: "Boleh dengan paksaan halus", isCorrect: false, explanation: "Paksaan menggugurkan consent." },
       ],
     },
+    {
+      id: 4,
+      question: "Apa risiko terbesar dari melakukan seks bebas di usia remaja?",
+      options: [
+        { text: "Mendapat pasangan sejati", isCorrect: false, explanation: "Pasangan sejati tidak ditentukan dari hubungan seksual." },
+        { text: "Bisa terkena penyakit menular seksual dan kehamilan tidak direncanakan", isCorrect: true, explanation: "Seks bebas bisa menyebabkan kehamilan di luar nikah & penyakit seperti HIV." },
+        { text: "Menjadi lebih dewasa", isCorrect: false, explanation: "Dewasa itu soal tanggung jawab, bukan soal seks." },
+        { text: "Meningkatkan status sosial", isCorrect: false, explanation: "Seks bebas justru bisa merusak reputasi dan masa depan." },
+      ],
+    },
+    {
+      id: 5,
+      question: "Mengapa pernikahan dini bisa membahayakan masa depan remaja?",
+      options: [
+        { text: "Karena tidak diperbolehkan di sekolah", isCorrect: false, explanation: "Bukan sekadar larangan sekolah, tapi lebih luas dari itu." },
+        { text: "Karena bisa mengganggu pendidikan dan kesehatan fisik serta mental", isCorrect: true, explanation: "Remaja belum siap secara mental, fisik, dan ekonomi. Bisa membuat stres dan kehilangan pendidikan." },
+        { text: "Karena hanya untuk orang kaya", isCorrect: false, explanation: "Masalahnya bukan soal kaya atau miskin, tapi soal kesiapan." },
+        { text: "Karena tidak cocok untuk zaman sekarang", isCorrect: false, explanation: "Tidak soal zaman, tapi soal dampaknya." },
+      ],
+    },
   ],
   "20-24": [
     {
@@ -95,6 +135,26 @@ export const quizBank: Record<"10-14" | "15-19" | "20-24", QuizQuestion[]> = {
         { text: "Diam agar tak ribut", isCorrect: false, explanation: "Itu pasif, bukan asertif." },
         { text: "Keras agar didengar", isCorrect: false, explanation: "Itu agresif." },
         { text: "Mengalah selalu", isCorrect: false, explanation: "Tidak sehat." },
+      ],
+    },
+    {
+      id: 4,
+      question: "Apa alasan utama pernikahan dini (di bawah usia 21) sering menimbulkan masalah?",
+      options: [
+        { text: "Kurangnya restu orang tua", isCorrect: false, explanation: "Restu penting, tapi bukan alasan utama masalahnya." },
+        { text: "Tidak adanya pesta pernikahan", isCorrect: false, explanation: "Pesta bukan hal utama dalam pernikahan." },
+        { text: "Belum matang secara emosional dan finansial", isCorrect: true, explanation: "Usia muda sering belum stabil secara emosi, mental, dan finansial." },
+        { text: "Tidak sesuai tren anak muda zaman sekarang", isCorrect: false, explanation: "Masalahnya bukan soal tren, tapi kesiapan." },
+      ],
+    },
+    {
+      id: 5,
+      question: "Apa yang sebaiknya menjadi dasar keputusan untuk menikah di usia muda?",
+      options: [
+        { text: "Tekanan dari keluarga atau lingkungan", isCorrect: false, explanation: "Tekanan luar bukan alasan yang sehat untuk menikah." },
+        { text: "Usia sudah cukup menurut hukum", isCorrect: false, explanation: "Usia cukup belum tentu siap mental." },
+        { text: "Sudah punya pacar lama", isCorrect: false, explanation: "Lama pacaran belum tentu cocok untuk menikah." },
+        { text: "Kesiapan mental, emosional, dan finansial", isCorrect: true, explanation: "Pernikahan butuh kesiapan menyeluruh, bukan hanya usia atau status hubungan." },
       ],
     },
   ],
