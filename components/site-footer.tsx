@@ -34,14 +34,14 @@ export default function SiteFooter() {
             </li>
           </ul>
           <div className="flex gap-3 mt-4">
-            <Link aria-label="Facebook" href="https://www.facebook.com/mhmd.hamudi.2025?mibextid=ZbWKwL" className="p-2 rounded-md bg-white/[0.06] hover:bg-white/[0.12] transition text-white">
+            <Link aria-label="Facebook" target="_blank" href="https://www.facebook.com/mhmd.hamudi.2025?mibextid=ZbWKwL" className="p-2 rounded-md bg-white/[0.06] hover:bg-white/[0.12] transition text-white">
               <Facebook className="size-4" />
             </Link>
-            <Link aria-label="Instagram" href="https://www.instagram.com/mhmdhamudiii_?igsh=MTh0cXR5M3dnYTVrcQ==" className="p-2 rounded-md bg-white/[0.06] hover:bg-white/[0.12] transition text-white">
+            <Link aria-label="Instagram" target="_blank" href="https://www.instagram.com/mhmdhamudiii_?igsh=MTh0cXR5M3dnYTVrcQ==" className="p-2 rounded-md bg-white/[0.06] hover:bg-white/[0.12] transition text-white">
               <Instagram className="size-4" />
             </Link>
-
           </div>
+          <p className="text-sm mt-2">Animated by: <a target="_blank" href="https://www.instagram.com/novaripakev?igsh=MTJ2OWp3eHVtMzM3aQ=="><i>Elang Novari Alam</i></a></p>
         </div>
       </div>
       <div className="border-t border-white/15">

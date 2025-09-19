@@ -5,7 +5,7 @@ export const quizBank: Record<"10-14" | "15-19" | "20-24", QuizQuestion[]> = {
   "10-14": [
     {
       id: 1,
-      question: "Apa arti 'persetujuan (consent)' dalam pertemanan atau hubungan?",
+      question: "Apa arti persetujuan (consent) dalam pertemanan atau hubungan?",
       options: [
         { text: "Melakukan sesuatu tanpa bertanya", isCorrect: false, explanation: "Itu bukan persetujuan." },
         { text: "Setuju dengan rela, sadar, dan tanpa paksaan", isCorrect: true, explanation: "Consent adalah kesediaan dengan rela dan sadar." },
